@@ -19,6 +19,51 @@ body {
   background-color: hsl(212, 45%, 89%);
 }
 
+.container {
+  width: 32rem;
+  height: 49.9rem;
+  padding: 1.6rem 1.6rem 4rem 1.6rem;
+  background-color: #fff;
+  border-radius: 2rem;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  margin: 23.05rem auto;
+}
+
+.img-texts-container{
+  display: flex;
+  flex-direction: column;
+  gap:2.4rem ;
+}
+
+.qr-code-img {
+  width: 28.8rem;
+  height: 28.8rem;
+  border-radius: 1rem;
+}
+
+.text-container{
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  padding: 0rem 1.6rem 0rem 1.6rem;
+}
+
+.title {
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 120%;
+  text-align: center;
+}
+
+.text {
+  color: hsl(216, 15%, 48%)
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 140%;
+  text-align: center;
+}
+
 .attribution {
   font-size: 1.1rem;
   text-align: center;
