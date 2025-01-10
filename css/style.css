@@ -10,12 +10,11 @@
 html {
   font-size: 62.5%;
   overflow-x: hidden;
-  color: #000;
+  
 }
 
 body {
   font-family: "Outfit";
-  font-weight: 400;
   background-color: hsl(212, 45%, 89%);
 }
 

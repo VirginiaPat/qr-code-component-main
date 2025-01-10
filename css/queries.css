@@ -1,0 +1,10 @@
+/**************************/
+/* BELOW 480px (mobiles) (480/16=30em) */
+/**************************/
+
+@media (max-width: 30em) {
+  .container {
+    box-shadow: none;
+    margin: 15.65rem auto;
+  }
+}
