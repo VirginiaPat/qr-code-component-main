@@ -1,6 +1,3 @@
-/*  Scan the QR code to visit
-    Frontend Mentor and take your coding skills to the next level */
-
 * {
   padding: 0;
   margin: 0;
@@ -8,23 +5,29 @@
 }
 
 html {
-  font-size: 62.5%;
-  overflow-x: hidden;
 }
 
 body {
-  font-family: "Outfit";
+  padding: 1.6rem;
+  font-family: "Outfit", system-ui, sans-serif;
   background-color: hsl(212, 45%, 89%);
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100svh;
+  gap: 1rem;
 }
 
 .container {
-  width: 32rem;
-  height: 49.9rem;
+  max-width: 20rem;
   padding: 1.6rem 1.6rem 4rem 1.6rem;
   background-color: #fff;
-  border-radius: 2rem;
+  border-radius: 20px;
   box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
-  margin: 23.05rem auto;
+  margin: 0rem auto;
 }
 
 .img-texts-container {
@@ -34,9 +37,10 @@ body {
 }
 
 .qr-code-img {
-  width: 28.8rem;
-  height: 28.8rem;
-  border-radius: 1rem;
+  display: block;
+  height: auto;
+  max-width: 100%;
+  border-radius: 10px;
 }
 
 .text-container {
@@ -49,23 +53,19 @@ body {
 .title {
   color: hsl(218, 44%, 22%);
   font-weight: 700;
-  font-size: 2.2rem;
+  font-size: 1.375rem;
   line-height: 120%;
-  text-align: center;
 }
 
 .text {
   color: hsl(216, 15%, 48%);
-  font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 0.9375rem;
   line-height: 140%;
-  text-align: center;
   letter-spacing: 0.02rem;
 }
 
 .attribution {
   font-size: 1.1rem;
-  text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
