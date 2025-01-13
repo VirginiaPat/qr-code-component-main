@@ -54,8 +54,8 @@ Also I used all the resets that are recommended for the global reset in css file
 ## Author
 
 - Frontend Mentor - [@VirginiaPat](https://www.frontendmentor.io/profile/VirginiaPat)
-- Github - [](https://github.com/VirginiaPat)
-- Netlify - [](https://app.netlify.com/teams/virginia-patrika/sites)
+- Github - [VirginiaPat ](https://github.com/VirginiaPat)
+- Netlify - [VirginiaPat](https://app.netlify.com/teams/virginia-patrika/sites)
 
 ## Acknowledgments
 
