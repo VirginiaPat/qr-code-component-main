@@ -47,7 +47,7 @@ Also I used all the resets that are recommended for the global reset in css file
 
 ### Useful resources
 
-- [A (more) Modern CSS Reset](https://piccalil.li/blog/a-more-modern-css-reset/) - This helped me with thw global reset
+- [A (more) Modern CSS Reset](https://piccalil.li/blog/a-more-modern-css-reset/) - This helped me with css reset.
 
 - [Should I change the default HTML font-size to 62.5%?](https://fedmentor.dev/posts/rem-html-font-size-hack/) - This is an amazing article which helped me finally understand why I shouldn't set font-size:62.5% in the html element.
 
